@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Rendering </title>
+    <link rel="stylesheet" type="text/css" href="main.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</head>
+<body>
+
+<div class="box">
+   <header>
+    <nav>
+       <div class="logo">
+           <a href="/"><h3>hello.</h3></a>
+       </div>
+       <div class="nav-items">
+           <ul>
+               <a href="/"><li>Home</li></a>
+               <a href="/"><li>Products</li></a>
+               <a href="/"><li>About</li></a>
+               
+       </div>
+    </nav>
+   </header>
+
+<div class="container">
+  
+    <div class="product-assets">
+        <div class="product-image">
+            <model-viewer src="assets/model.gltf" alt="Camaro zl" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto"  ios-src="assets/model.usdz"></model-viewer>
+        </div>
+    </div>
+
+    <div class="product-description">
+           <h1>Chevy Camaro ZL1</h1>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad cumque exercitationem eligendi ab praesentium, perspiciatis ipsum minima quidem provident.</p>
+            <h3>$ 20,000</h3>
+            <div class="buttons">
+            <button class="buy"> BUY NOW</button>
+            <button class="outlined">ADD TO CART</button>
+
+            </div>
+            
+    </div>
+
+</div>
+
+</div>
+
+
+
+ 
+    
+</body>
+</html>
